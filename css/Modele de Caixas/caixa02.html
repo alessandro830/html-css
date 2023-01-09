@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: inset -1px 1px 8px 2px rgba(0, 0, 0, 0.356);
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            /* 
+            Inset = dentro
+            Outset = fora
+            */
+            box-shadow: 6px 5px 10px 0px rgba(0, 0, 0, 0.479);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow: 4px 5px 2px 3px rgb(0 0 0 / 35%);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: lightslategray;
+        }
+
+        footer {
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            margin-top: 20px;
+            background-color: whitesmoke;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 100% funcional, apenas confia.</a>
+            <br>
+            <a href="#">Link 100% funcional, apenas confia.</a>
+            <br>
+            <a href="#">Link 100% funcional, apenas confia.</a>
+            <br>
+            <a href="#">Link 100% funcional, apenas confia.</a>
+            <br>
+            <a href="#">Link 100% funcional, apenas confia.</a>
+            <br>
+            <a href="#">Link 100% funcional, apenas confia.</a>
+            <br>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Deveria ser alguma coisa mais interessante, mas irei deixar isso.</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre ninguem!</h2>
+                <p>Aqui temos um notícia sobre ninguem já que o desenvolvedor não quis procurar uma.</p>
+                <aside>
+                    <p>Artigo feito por Um Alguem.</p>
+                </aside>
+            </article>
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim mesmo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
