@@ -10,11 +10,11 @@
     --cor005: #0D0D0D;
 }
 
+
+
 header {
     font-family: var(--fonte001);
-    padding-top: 90px;
-    min-width: 150px;
-    height: 250px;
+    padding-top: 50px;
     background-color: var(--cor005);
     font-size: xx-large;
     text-align: center;
@@ -28,6 +28,9 @@ h1 {
 a, header {
     color: var(--cor004);
 }
+header > p {
+    padding-bottom: 50px;
+ }
 
 a, p {
     font-size: x-large;

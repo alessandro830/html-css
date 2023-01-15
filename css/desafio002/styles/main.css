@@ -12,6 +12,7 @@
 
 * {
     margin: 0px;
+    padding: 0px;
 }
 
 main {
@@ -19,26 +20,17 @@ main {
 }
 
 section {
-    height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     display: flex;
     align-items: center;
 }
 
-div {
-    margin-left: 60px;
-
-}
-
-div > p {
-    font-size: 35px;
-}
-
-.div_bg {
-    padding: 20px;
-    border-radius: 15px;
-    width: fit-content;
+section.background > p {
+    width: 400px;
+    background-color: #0d0d0d80;
     color: var(--cor004);
-    background-color: #0d0d0d7a;
 }
 
 #bg1 {

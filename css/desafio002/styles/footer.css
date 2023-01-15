@@ -10,9 +10,15 @@
     --cor005: #0D0D0D;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 footer {
     background-color: var(--cor005);
     color: var(--cor004);
+    padding: 10px 0px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
