@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&display=swap');
+
+:root {
+    --fonte001: 'Pacifico', cursive;
+    --fonte002: 'Dancing Script', cursive;
+    --cor001: #05F26C;
+    --cor002: #41BF78;
+    --cor003: #038C7F;
+    --cor004: #F2F1EB;
+    --cor005: #0D0D0D;
+}
+
+footer {
+    background-color: var(--cor005);
+    color: var(--cor004);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

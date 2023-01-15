@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&display=swap');
+
+:root {
+    --fonte001: 'Pacifico', cursive;
+    --fonte002: 'Dancing Script', cursive;
+    --cor001: #05F26C;
+    --cor002: #41BF78;
+    --cor003: #038C7F;
+    --cor004: #F2F1EB;
+    --cor005: #0D0D0D;
+}
+
+* {
+    margin: 0px;
+}
+
+main {
+    font-family: var(--fonte002);
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    margin-left: 60px;
+
+}
+
+div > p {
+    font-size: 35px;
+}
+
+.div_bg {
+    padding: 20px;
+    border-radius: 15px;
+    width: fit-content;
+    color: var(--cor004);
+    background-color: #0d0d0d7a;
+}
+
+#bg1 {
+    background-image: url('../imagens/venti_bg01.jpeg');
+}
+
+#bg2 {
+    background-image: url('../imagens/venti_bg02.jpeg');
+}
+
+#bg1, #bg2 {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right top;
+}
