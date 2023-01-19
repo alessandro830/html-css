@@ -22,27 +22,42 @@ main {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    min-height: 80vh;
     padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     align-items: center;
 }
 
+section > p {
+    font-size: 45px;
+    line-height: 80px;
+}
+
+.background {
+    box-shadow: inset 0px 0px 15px var(--cor003);
+}
+
 section.background > p {
-    width: 400px;
+    display: inline-block;
+    max-width: 801px;
+    padding: 10px;
+    border-radius: 10px;
     background-color: #0d0d0d80;
     color: var(--cor004);
 }
 
 #bg1 {
     background-image: url('../imagens/venti_bg01.jpeg');
+    background-position: center center;
 }
 
 #bg2 {
     background-image: url('../imagens/venti_bg02.jpeg');
+    background-position: right top;
 }
 
 #bg1, #bg2 {
     background-size: cover;
     background-attachment: fixed;
-    background-position: right top;
 }
