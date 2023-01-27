@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            border: 1px solid black;
+            padding: 10px;
+            font-weight: bold;
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th, caption {
+            color: white;
+        }
+
+        th {
+            background-color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Terceiro desafio</h1>
+    <table>
+        <caption>Personagens dos dubladores</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Personagens</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Miku ito</td>
+                <td>Nakano Miku</td>
+                <td>Titan</td>
+                <td>Frenica Cesky</td>
+            </tr>
+            <tr>
+                <td>Yoshino Aoyama</td>
+                <td>Hitori Gotou</td>
+                <td>Eve</td>
+                <td>Evelyn</td>
+            </tr>
+            <tr>
+                <td>Rie Takahashi</td>
+                <td>Hu Tao</td>
+                <td>Mash Kyrielight</td>
+                <td>Sumi Sakurasawa</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Yoshitsugu Matsuoka</td>
+                <td>Kazuto Kirigaya</td>
+                <td>Fuutarou Uesugi</td>
+                <td>Xiao</td>
+            </tr>
+            <tr>
+                <td>Tomoaki Maeno</td>
+                <td>Zhongli</td>
+                <td>Veldora Tempest</td>
+                <td>Takeru Goda</td>
+            </tr>
+            <tr>
+                <td>Natsuki Hanae</td>
+                <td>Shinpei Ajiro</td>
+                <td>Kamado Tanjiro</td>
+                <td>9S</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>4</td>
+        </tfoot>
+    </table>
+</body>
+</html>
